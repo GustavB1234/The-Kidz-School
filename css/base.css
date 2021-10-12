@@ -95,6 +95,13 @@
 
 
 
+* {
+margin: 0; 
+padding: 0;
+}
+
+
+
 
 /* 
 *, *::before, *::after {
@@ -102,16 +109,7 @@
 }
  */
 
- 
-html {
-    box-sizing: border-box;
-   font-size: 62.5%; 
-     /* 1rem = 10px, 10px/16px = 62,5%  */
-}
- 
-
-/* 
-body {
+ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6;
@@ -119,7 +117,17 @@ body {
     font-size: var(--display-sm);
     min-height: 100vh;
 }
- */
+ 
+html {
+/* box-sizing: border-box; */
+   font-size: 62.5%; 
+     /* 1rem = 10px, 10px/16px = 62,5%  */
+}
+ 
+
+
+
+
 
 
 
