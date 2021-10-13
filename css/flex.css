@@ -2,9 +2,8 @@
 *** Dispaly ***
 **************/
 
-.d-flex {
-    display: flex;
-}
+.d-flex { display: flex; }
+.d-none { display: none;}
 
 
 
@@ -12,16 +11,17 @@
 *** Flex ***
 **************/
 
-.flex-grow {
-    flex-grow: 1;
-}
-
+.flex-grow { flex-grow: 1; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-grow { flex-grow: 1; }
 
 
 /*********************
 *** Align & Justify***
 *********************/
 
-.justify-content-between { justify-content: space-between;} /* justerar så det blir så: [1  2  3] ANNARS är det så: [123     ]*/
+.justify-content-between { justify-content: space-between;} 
 
-.align-items-center{ align-items: center; } /*justerar i höjdled*/
+.align-items-center{ align-items: center; } 
