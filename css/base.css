@@ -16,7 +16,7 @@
 --color-cozy:#ea77ad;
 --color-transparent: transparent;
 --color-border: #dee2e6;
---color-dark-transparent:rgba 0, 0, 0, 0.2;
+--color-dark-transparent: rgba(0, 0, 0, 0.2);
 
 
 
@@ -153,7 +153,7 @@ html {
 .bg-white, btn-white {background-color:var(--color-white);}
 .bg-cozy, btn-cozy {background-color:var(--color-cozy);}
 .bg-transparent {background-color:var(--color-transparent);}
-.bg-dark-transparent {background-color:var(--color-dark-transparent);}
+.bg-dark-transparent {background-color: var(--color-dark-transparent);}
 
 
 
