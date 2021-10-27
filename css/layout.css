@@ -3,6 +3,10 @@
 **************/
 .max-width{ max-width: 192rem;}
 .card-width { max-width: 60rem; }
+.width-lg { max-width: 50%; }
+.min-width-xxl {
+  min-width: 100%;
+}
 
 
 /*************
@@ -29,6 +33,10 @@
 
 .m-6 {
   margin: var(--distance-6);}
+
+
+.m-15 {
+    margin: var(--distance-15);}
 
 .mt-0, .my-0 { margin-top: var(--distance-0); }    /* 0rem */
 .mb-0, .my-0 { margin-bottom: var(--distance-0); }    
@@ -142,7 +150,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12); }
 .icon-badge {
     top: -8px;
     right: -8px;
-    padding: var(--distance-0) var(--distance-3);
+    padding: var(--distance-1) var(--distance-3);
 }
 
 
@@ -223,6 +231,11 @@ nav div a:not(:first-child) { margin-left: var(--distance-12); }
   width: 6.2rem;
   height: 6.2rem;
   line-height: 6rem;
+}
+
+.icon-form-control {
+  right: 10px;
+  top: 10px;
 }
 
 
